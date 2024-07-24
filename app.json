@@ -4,7 +4,7 @@
     "slug": "Key-ingredient-front",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Key-ingredient-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -16,12 +16,21 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Key-ingredient-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.keyIngredient.alexbris"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/Key-ingredient-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "53ce16df-d04c-4fcc-8786-b52f58bd973b"
+      }
     }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-4032281718971880~3919471545"
   }
 }
